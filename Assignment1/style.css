@@ -1,0 +1,376 @@
+@media only screen and (min-width: 1000px){
+
+.center {
+    text-align: center;
+   }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.proxy{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 20px 0 400px;
+    text-align: justify;
+}
+
+header * {
+    background-color: rgb(184, 228, 237);
+    margin:0 0 0 0;
+    padding:0%;
+    }
+
+h1 {
+    color:rgb(10, 11, 11);
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 0%;
+    margin: auto;
+}
+
+h2 {
+    color:rgb(10, 11, 11);
+    font-size: x-large;
+    font-weight: 600;
+}
+
+h3 {
+    font-size:median;
+    color:rgb(76, 148, 206);
+    padding-bottom: 0;
+    margin: 20px 20px 0px 50px;
+}
+
+h4 {
+    text-align: left;
+    font-size:median;
+    font-weight: 100;
+    font-style:italic;
+    color:rgb(76, 148, 206);
+    padding-bottom: 0;
+    margin: 20px 20px 0px 50px;
+}
+
+section p{
+    margin: 0 50px 0% 50px;
+    line-height: 20px;
+    font-weight: 1000;
+}
+
+div p{
+    margin: 0 50px 20px 50px;
+    padding:0
+}
+
+p{
+    border: 1pt red;
+    margin: 0 50px 20px 50px;
+    padding: 0;
+    line-height: 30px;
+}
+
+figcaption{
+    color:rgb(76, 148, 206);
+    margin: 0 20px 20px 20px;
+}
+
+figure{
+    margin: 0 20px 100px 20px;
+}
+
+ol{
+    margin: 10px 20px 50px 50px;
+    line-height: 30px;
+}
+
+ul{
+    margin: 10px 20px 20px 50px;
+    line-height: 30px;
+}
+
+table, th, td {
+    border: 1px solid;
+    margin: 20px 20px 0px 50px;
+  }
+
+body {
+    background-color: hwb(0 95% 3%);
+    font-family: Arial, sans-serif;
+}
+
+/* CSS code for styling the navigation bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar a:hover {
+    background-color: #111;
+  }
+
+/* Styles for floating menu */
+#floating-menu{display: none;}
+#floating-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#floating-menu li {
+  padding: 10px;
+}
+
+#floating-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CSS code for styling the menu icon */
+.menu-icon {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 14px 16px;
+    cursor: pointer;
+    z-index: 1; /* Ensure the menu icon is on top */
+}
+
+.menu-icon img {
+    width: 30px;
+    height: 30px;
+}
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  .center {
+    text-align: center;
+   }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.proxy{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 0px 0 50px;
+}
+
+header * {
+    background-color: rgb(184, 228, 237);
+    margin:0 0 0 0;
+    padding:0%;
+    }
+
+h1 {
+    color:rgb(10, 11, 11);
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 0%;
+    margin: auto;
+}
+
+h2 {
+    color:rgb(10, 11, 11);
+    font-size: x-large;
+    font-weight: 600;
+}
+
+h3 {
+    font-size:median;
+    color:rgb(76, 148, 206);
+    padding-bottom: 0;
+    margin: 20px 20px 0px 10px;
+}
+
+h4 {
+    text-align: left;
+    font-size:median;
+    font-weight: 100;
+    font-style:italic;
+    color:rgb(76, 148, 206);
+    padding-bottom: 0;
+    margin: 20px 10px 0px 10px;
+}
+
+section p{
+    margin: 0 10px 0% 10px;
+    line-height: 20px;
+    font-weight: 1000;
+}
+
+nav ul li{
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+
+ol ul li{
+  margin: 0 0 0 -40px;
+}
+div p{
+    margin: 0 50px 20px 50px;
+    padding:0
+}
+
+p{
+    border: 1pt red;
+    margin: 0 10px 20px 10px;
+    padding: 0;
+    line-height: 25px;
+}
+
+figcaption{
+    color:rgb(76, 148, 206);
+    margin: 0 20px 20px 20px;
+}
+
+figure{
+    margin: 0 20px 50px 20px;
+}
+
+ol{
+    margin: 10px 20px 20px 10px;
+    line-height: 30px;
+}
+
+ul{
+    margin: 10px 20px 20px 10px;
+    line-height: 30px;
+}
+
+table, th, td {
+    border: 1px solid;
+    margin: 20px 20px 0px 10px;
+  }
+
+body {
+    background-color: hwb(0 95% 3%);
+    font-family: Arial, sans-serif;
+}
+
+/* CSS code for styling the navigation bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.navbar a {
+  display: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #111;
+}
+
+
+
+
+/* Styles for menu icon */
+.menu-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  background-image: url(images/menu-icon.ico); /* Replace with your menu icon image */
+  background-size: cover;
+}
+
+/* Styles for floating menu */
+#floating-menu {
+  display: none;
+  position: sticky;
+  top: 0;
+  left: -300px;
+  width: 250px;
+  height: 200px;
+  background-color: #fff;
+  transition: left 0.5s ease;
+  z-index: 9998;
+}
+
+#floating-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#floating-menu li {
+  padding: 10px;
+}
+
+#floating-menu a {
+  text-decoration: none;
+  color: black;
+}
+}
+
+/* Additional styles for mobile layout */
+@media (max-width: 500px) {
+  /* Adjust menu icon position and size */
+  .menu-icon {
+    top: 220px;
+    left: 20px;
+  }
+
+  /* Show floating menu */
+  #menu-toggle:checked ~ #floating-menu {
+    display: block;
+    position: fixed;
+    top: 240px;
+    left: 0;
+    width: 110px;
+    height: 300px;
+    background-color: rgb(220, 232, 234);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 1s ease; /* Slide-in transition */
+    transform: translateX(0px); /* Initial position outside the viewport */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    }
+
+  /* Slide-in animation */
+  #menu-toggle:checked ~ #floating-menu.show {
+    transform: translateX(0);
+  }
+}
