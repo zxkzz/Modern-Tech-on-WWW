@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Two</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" ></script>
+</head>
+<body>
+    <header>
+        <h1>Hong Kong International Airport</h1>
+        <h1>Flight Information</h1>
+    </header>
+
+    <div id="form-container" class="container1">
+        <form id="search-form" class="form">
+            <label for="search-date">Date of Flight</label>
+            <input type="date" name="search-date" id="search-date">
+            <input type="submit" value="Search" id="bttn">
+        </form>     
+    </div>
+
+    <h2 id="h2" class="Flight"></h2>
+    
+    <div id="Dep-stats-container" class="container2">
+        <h2 id="departure" class="departure"></h2>
+        <div >
+            <h3 id="departure-count" class="dCount"></h3>
+            <h3 id="departure-des-count" class="desCount"></h3>
+            <h3 id="departure-special-cases" class="dCases"></h3>
+            <div>
+                <h3 id="Dspecialcases" class="DepSpecialCase"></h3>
+            </div>
+        </div>
+        
+        <div id="departure-histogram"></div>
+        <div id="TopDes" class="TopDes"></div>
+        <div id="DAirport" class="DAirport"></div>
+        <div id="DAirportNum" class="DAirportNum"></div>
+        <div id="top-destinations" class="TopDestinations"></div>
+    </div>
+
+
+
+    <div id="Arr-stats-container" class="container3">
+        <h2 id="arrival" class="arrival"></h2>
+        <div >
+            <h3 id="arrival-count" class="aCount"></h3>
+            <h3 id="arrival-origins-count" class="oriCount"></h3>
+            <h3 id="arrival-special-cases" class="aCases"></h3>
+            <h3 id="Aspecialcases" class="ArrSpecialCase"></h3>
+        </div>
+        
+        <div id="arrival-histogram"></div>
+        <div id="TopOri" class="TopOri"></div>
+        <div id="AAirport" class="AAirport"></div>
+        <div id="AAirportNum" class="AAirportNum"></div>
+        <div id="top-origins" class="TopOrigins"></div>
+    </div>
+</body>
+</html>

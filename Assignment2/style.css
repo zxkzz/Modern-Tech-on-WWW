@@ -1,0 +1,325 @@
+@media only screen and (min-width: 1000px){
+  h1 {
+    margin: 0px 0px 0px 0px;
+    text-align:left;
+  }
+  .container1 {
+    width: 1200px;
+    width:100%;
+    text-align:left;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  label{
+    position: absolute;    
+    top: 17%;
+    left: 35%;
+  }
+  input[type=date]{
+    position: absolute;    
+    top: 17%;
+    left: 45%;
+  }
+  input[type=submit]{
+    position: absolute;    
+    top: 17%;
+    left: 55%;
+  }
+  .Flight{
+    position:absolute;
+    top:20%;
+    left:0%;
+  }
+  /* Departure */
+  .departure{
+    position:absolute;
+    top:25%;
+    left:20%;
+    text-align: center;
+  }
+  .dCount{
+    position:absolute;
+    top:30%;
+  }
+  .desCount{
+    position:absolute;
+    top:32%;
+  }
+  .dCases{
+    position:absolute;
+    top:34%;
+  }
+  .DepSpecialCase{
+    font-size: medium;
+    font-weight: 100;
+    position:absolute;
+    left:13%;
+    top:34.5%;
+  }
+  .DTitle{
+    position:absolute;
+    top:38.5%;
+  }
+  .DCanvas{
+    position:absolute;
+    top:45%;
+    left:2%;
+  }
+  .TopDes{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:87%;
+    left:10%;
+  }
+  .DAirport{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:90%;
+    left:10%;
+  }
+  .DAirportNum{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:90%;
+    left:25%;
+  }
+  .TopDestinations{
+    position:absolute;
+    top:95%;
+  }
+  .listItem{
+    font-size: small;
+  }
+
+  /* Arrival */
+  .arrival{
+    position:absolute;
+    top:25%;
+    left:65%;
+    text-align: center;
+  }
+  .aCount{
+    position:absolute;
+    top:30%;
+    left:50%;
+  }
+  .oriCount{
+    position:absolute;
+    top:32%;
+    left:50%;
+  }
+  .aCases{
+    position:absolute;
+    top:34%;
+    left:50%;
+  }
+  .ArrSpecialCase{
+    font-size: medium;
+    font-weight: 100;
+    position:absolute;
+    left:63%;
+    top:34.5%;
+  }
+  .ATitle{
+    position:absolute;
+    top:38.5%;
+    left:50%;
+  }
+  .ACanvas{
+    position:absolute;
+    top:45%;
+    left:50%;
+  }
+  .TopOri{
+    font-size: medium;
+    font-weight:600;
+    position:absolute;
+    left:60%;
+    top:87%;
+  } 
+  .AAirport{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:90%;
+    left:60%;
+  }
+  .AAirportNum{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:90%;
+    left:80%;
+  }
+  .TopOrigins{
+    position:absolute;
+    top:95%;
+    left:50%;
+  }
+  .listItem{
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  h1 {
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+  }
+  .container1 {
+    width: 1200px;
+    width:100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  label{
+    position: absolute;    
+    top: 17%;
+    left: 15%;
+  }
+  input[type=date]{
+    position: absolute;    
+    top: 17%;
+    left: 40%;
+  }
+  input[type=submit]{
+    position: absolute;    
+    top: 17%;
+    left: 66%;
+  }
+  .Flight{
+    position:absolute;
+    top:20%;
+    left:5%;
+  }
+  /* Departure */
+  .departure{
+    position:absolute;
+    top:25%;
+    left:35%;
+    text-align: center;
+  }
+  .dCount{
+    position:absolute;
+    top:30%;
+  }
+  .desCount{
+    position:absolute;
+    top:32%;
+  }
+  .dCases{
+    position:absolute;
+    top:34%;
+  }
+  .DepSpecialCase{
+    font-size: medium;
+    font-weight: 100;
+    position:absolute;
+    left:32%;
+    top:35%;
+  }
+  .DTitle{
+    position:absolute;
+    top:38.5%;
+  }
+  .DCanvas{
+    position:absolute;
+    top:45%;
+  }
+  .TopDes{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:77%;
+    left:30%;
+  }
+  .DAirport{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:80%;
+    left:30%;
+  }
+  .DAirportNum{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:80%;
+    left:70%;
+  }
+  .TopDestinations{
+    position:absolute;
+    top:83%;
+  }
+  .listItem{
+    font-size: small;
+  }
+
+  /* Arrival */
+  .arrival{
+    position:absolute;
+    top:110%;
+    left:35%;
+    text-align: center;
+  }
+  .aCount{
+    position:absolute;
+    top:115%;
+  }
+  .oriCount{
+    position:absolute;
+    top:117%;
+  }
+  .aCases{
+    position:absolute;
+    top:119%;
+  }
+  .ArrSpecialCase{
+    font-size: medium;
+    font-weight: 100;
+    position:absolute;
+    left:32%;
+    top:120%;
+  }
+  .ATitle{
+    position:absolute;
+    top:123.5%;
+  }
+  .ACanvas{
+    position:absolute;
+    top:130%;
+  }
+  .TopOri{
+    font-size: medium;
+    font-weight:600;
+    position:absolute;
+    left:30%;
+    top:162%;
+  } 
+  .AAirport{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:165%;
+    left:30%;
+  }
+  .AAirportNum{
+    font-size: medium;
+    font-weight:600;
+    position: absolute;
+    top:165%;
+    left:70%;
+  }
+  .TopOrigins{
+    position:absolute;
+    top:168%;
+  }
+  .listItem{
+    font-size: small;
+  }
+
+}
