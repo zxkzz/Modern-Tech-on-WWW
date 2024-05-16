@@ -1,0 +1,15 @@
+
+# Powershell command to send the request
+$data = '[{\"Year\":2024,\"Month\":3,\"Flow\":\"Arrival\",\"Local\":8374047,\"Mainland\":2466042,\"Others\":936189},{\"Year\":2024,\"Month\":3,\"Flow\":\"Departure\",\"Local\":9291362,\"Mainland\":2489151,\"Others\":946946}]'
+
+curl.exe --json $data -i http://localhost:3000/HK/stat/
+
+# Mac OSX with curl version 8.4.0
+curl --json '[{"Year":2024,"Month":3,"Flow":"Arrival","Local":8374047,"Mainland":2466042,"Others":936189},{"Year":2024,"Month":3,"Flow":"Departure","Local":9291362,"Mainland":2489151,"Others":946946}]' -i http://localhost:3000/HK/stat/
+
+# WSL with curl version 7.81.0
+curl -X POST --header "Content-Type: application/json" --data '[{"Month":1,"Others":-650},{"Month":2,"Others":-373},{"Month":3,"Others":-
+311},{"Month":4,"Others":-328},{"Month":5,"Others":-469},{"Month":6,"Others":-
+389},{"Month":7,"Others":-
+156},{"Month":8,"Others":180},{"Month":9,"Others":110},{"Month":10,"Others":314},{
+"Month":11,"Others":296},{"Month":12,"Others":-39}]' -i http://localhost:3000/HK/stat
