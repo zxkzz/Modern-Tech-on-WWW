@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .message-container {
+    position: relative;
+    height: 400px; 
+
+  }
+  .message-window {
+    
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  #message-input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #send-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #Logout {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 响应式样式 */
+  @media (max-width: 600px) {
+    #message-input {
+      width: 70%;
+    }
+    
+    #send-button, #Logout {
+      width: 30%;
+    }
+  }
+  /* 左侧聊天气泡样式 */
+.left {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    margin-right: 1000px;
+  }
+  
+  .left .username {
+    font-weight: bold;
+  }
+  
+  .left .time {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .left .content {
+    
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* 右侧聊天气泡样式 */
+  .right {
+    border-radius: 10px;
+    margin-left: 1000px;
+    background-color: #e6fb5f;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+  }
+  
+  .right .username {
+    font-weight: bold;
+  }
+  
+  .right .time {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .right .content {
+    
+    padding: 10px;
+    border-radius: 10px;
+  }
